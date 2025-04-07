@@ -1,115 +1,255 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{schopf-matthes-2024-nlp,
+    title = "{NLP}-{KG}: A System for Exploratory Search of Scientific Literature in Natural Language Processing",
+    author = "Schopf, Tim  and
+      Matthes, Florian",
+    editor = "Cao, Yixin  and
+      Feng, Yang  and
+      Xiong, Deyi",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-demos.13/",
+    doi = "10.18653/v1/2024.acl-demos.13",
+    pages = "127--135",
+    abstract = "Scientific literature searches are often exploratory, whereby users are not yet familiar with a particular field or concept but are interested in learning more about it. However, existing systems for scientific literature search are typically tailored to keyword-based lookup searches, limiting the possibilities for exploration. We propose NLP-KG, a feature-rich system designed to support the exploration of research literature in unfamiliar natural language processing (NLP) fields. In addition to a semantic search, NLP-KG allows users to easily find survey papers that provide a quick introduction to a field of interest. Further, a Fields of Study hierarchy graph enables users to familiarize themselves with a field and its related areas. Finally, a chat interface allows users to ask questions about unfamiliar concepts or specific articles in NLP and obtain answers grounded in knowledge retrieved from scientific publications. Our system provides users with comprehensive exploration possibilities, supporting them in investigating the relationships between different fields, understanding unfamiliar concepts in NLP, and finding relevant research literature. Demo, video, and code are available at: https://github.com/NLP-Knowledge-Graph/NLP-KG-WebApp."
+}
+@conference{schopf_etal_kdir22,
+author={Tim Schopf and Simon Klimek and Florian Matthes},
+title={PatternRank: Leveraging Pretrained Language Models and Part of Speech for Unsupervised Keyphrase Extraction},
+booktitle={Proceedings of the 14th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management (IC3K 2022) - KDIR},
+year={2022},
+pages={243-248},
+publisher={SciTePress},
+organization={INSTICC},
+doi={10.5220/0011546600003335},
+isbn={978-989-758-614-9},
+issn={2184-3228},
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{10.1145/3582768.3582795,
+author = {Schopf, Tim and Braun, Daniel and Matthes, Florian},
+title = {Evaluating Unsupervised Text Classification: Zero-shot and Similarity-based Approaches},
+year = {2023},
+isbn = {9781450397629},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582768.3582795},
+doi = {10.1145/3582768.3582795},
+abstract = {Text classification of unseen classes is a challenging Natural Language Processing task and is mainly attempted using two different types of approaches. Similarity-based approaches attempt to classify instances based on similarities between text document representations and class description representations. Zero-shot text classification approaches aim to generalize knowledge gained from a training task by assigning appropriate labels of unknown classes to text documents. Although existing studies have already investigated individual approaches to these categories, the experiments in literature do not provide a consistent comparison. This paper addresses this gap by conducting a systematic evaluation of different similarity-based and zero-shot approaches for text classification of unseen classes. Different state-of-the-art approaches are benchmarked on four text classification datasets, including a new dataset from the medical domain. Additionally, novel SimCSE [7] and SBERT-based [26] baselines are proposed, as other baselines used in existing work yield weak classification results and are easily outperformed. Finally, the novel similarity-based Lbl2TransformerVec approach is presented, which outperforms previous state-of-the-art approaches in unsupervised text classification. Our experiments show that similarity-based approaches significantly outperform zero-shot approaches in most cases. Additionally, using SimCSE or SBERT embeddings instead of simpler text representations increases similarity-based classification results even further.},
+booktitle = {Proceedings of the 2022 6th International Conference on Natural Language Processing and Information Retrieval},
+pages = {6–15},
+numpages = {10},
+keywords = {Natural Language Processing, Unsupervised Text Classification, Zero-shot Text Classification},
+location = {Bangkok, Thailand},
+series = {NLPIR '22}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@conference{webist21,
+author={Tim Schopf and Daniel Braun and Florian Matthes},
+title={Lbl2Vec: An Embedding-based Approach for Unsupervised Document Retrieval on Predefined Topics},
+booktitle={Proceedings of the 17th International Conference on Web Information Systems and Technologies - WEBIST},
+year={2021},
+pages={124-132},
+publisher={SciTePress},
+organization={INSTICC},
+doi={10.5220/0010710300003058},
+isbn={978-989-758-536-4},
+issn={2184-3252},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@InProceedings{10.1007/978-3-031-24197-0_4,
+author="Schopf, Tim
+and Braun, Daniel
+and Matthes, Florian",
+editor="Marchiori, Massimo
+and Dom{\'i}nguez Mayo, Francisco Jos{\'e}
+and Filipe, Joaquim",
+title="Semantic Label Representations with Lbl2Vec: A Similarity-Based Approach for Unsupervised Text Classification",
+booktitle="Web Information Systems and Technologies",
+year="2023",
+publisher="Springer International Publishing",
+address="Cham",
+pages="59--73",
+abstract="In this paper, we evaluate the Lbl2Vec approach for unsupervised text document classification. Lbl2Vec requires only a small number of keywords describing the respective classes to create semantic label representations. For classification, Lbl2Vec uses cosine similarities between label and document representations, but no annotation information. We show that Lbl2Vec significantly outperforms common unsupervised text classification approaches and a widely used zero-shot text classification approach. Furthermore, we show that using more precise keywords can significantly improve the classification results of similarity-based text classification approaches.",
+isbn="978-3-031-24197-0"
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{schneider-etal-2022-decade,
+    title = "A Decade of Knowledge Graphs in Natural Language Processing: A Survey",
+    author = "Schneider, Phillip  and
+      Schopf, Tim  and
+      Vladika, Juraj  and
+      Galkin, Mikhail  and
+      Simperl, Elena  and
+      Matthes, Florian",
+    editor = "He, Yulan  and
+      Ji, Heng  and
+      Li, Sujian  and
+      Liu, Yang  and
+      Chang, Chua-Hui",
+    booktitle = "Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 12th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    month = nov,
+    year = "2022",
+    address = "Online only",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.aacl-main.46/",
+    doi = "10.18653/v1/2022.aacl-main.46",
+    pages = "601--614",
+    abstract = "In pace with developments in the research field of artificial intelligence, knowledge graphs (KGs) have attracted a surge of interest from both academia and industry. As a representation of semantic relations between entities, KGs have proven to be particularly relevant for natural language processing (NLP), experiencing a rapid spread and wide adoption within recent years. Given the increasing amount of research work in this area, several KG-related approaches have been surveyed in the NLP research community. However, a comprehensive study that categorizes established topics and reviews the maturity of individual research streams remains absent to this day. Contributing to closing this gap, we systematically analyzed 507 papers from the literature on KGs in NLP. Our survey encompasses a multifaceted review of tasks, research types, and contributions. As a result, we present a structured overview of the research landscape, provide a taxonomy of tasks, summarize our findings, and highlight directions for future work."
+}
+@inproceedings{schopf-etal-2024-efficient,
+    title = "Efficient Few-shot Learning for Multi-label Classification of Scientific Documents with Many Classes",
+    author = "Schopf, Tim  and
+      Blatzheim, Alexander  and
+      Machner, Nektarios  and
+      Matthes, Florian",
+    editor = "Abbas, Mourad  and
+      Freihat, Abed Alhakim",
+    booktitle = "Proceedings of the 7th International Conference on Natural Language and Speech Processing (ICNLSP 2024)",
+    month = oct,
+    year = "2024",
+    address = "Trento",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.icnlsp-1.21/",
+    pages = "186--198"
+}
+@inproceedings{schopf-etal-2023-exploring,
+    title = "Exploring the Landscape of Natural Language Processing Research",
+    author = "Schopf, Tim  and
+      Arabi, Karim  and
+      Matthes, Florian",
+    editor = "Mitkov, Ruslan  and
+      Angelova, Galia",
+    booktitle = "Proceedings of the 14th International Conference on Recent Advances in Natural Language Processing",
+    month = sep,
+    year = "2023",
+    address = "Varna, Bulgaria",
+    publisher = "INCOMA Ltd., Shoumen, Bulgaria",
+    url = "https://aclanthology.org/2023.ranlp-1.111/",
+    pages = "1034--1045",
+    abstract = "As an efficient approach to understand, generate, and process natural language texts, research in natural language processing (NLP) has exhibited a rapid spread and wide adoption in recent years. Given the increasing research work in this area, several NLP-related approaches have been surveyed in the research community. However, a comprehensive study that categorizes established topics, identifies trends, and outlines areas for future research remains absent. Contributing to closing this gap, we have systematically classified and analyzed research papers in the ACL Anthology. As a result, we present a structured overview of the research landscape, provide a taxonomy of fields of study in NLP, analyze recent developments in NLP, summarize our findings, and highlight directions for future work."
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{schopf-etal-2023-efficient,
+    title = "Efficient Domain Adaptation of Sentence Embeddings Using Adapters",
+    author = "Schopf, Tim  and
+      Schneider, Dennis N.  and
+      Matthes, Florian",
+    editor = "Mitkov, Ruslan  and
+      Angelova, Galia",
+    booktitle = "Proceedings of the 14th International Conference on Recent Advances in Natural Language Processing",
+    month = sep,
+    year = "2023",
+    address = "Varna, Bulgaria",
+    publisher = "INCOMA Ltd., Shoumen, Bulgaria",
+    url = "https://aclanthology.org/2023.ranlp-1.112/",
+    pages = "1046--1053",
+    abstract = "Sentence embeddings enable us to capture the semantic similarity of short texts. Most sentence embedding models are trained for general semantic textual similarity tasks. Therefore, to use sentence embeddings in a particular domain, the model must be adapted to it in order to achieve good results. Usually, this is done by fine-tuning the entire sentence embedding model for the domain of interest. While this approach yields state-of-the-art results, all of the model`s weights are updated during fine-tuning, making this method resource-intensive. Therefore, instead of fine-tuning entire sentence embedding models for each target domain individually, we propose to train lightweight adapters. These domain-specific adapters do not require fine-tuning all underlying sentence embedding model parameters. Instead, we only train a small number of additional parameters while keeping the weights of the underlying sentence embedding model fixed. Training domain-specific adapters allows always using the same base model and only exchanging the domain-specific adapters to adapt sentence embeddings to a specific domain. We show that using adapters for parameter-efficient domain adaptation of sentence embeddings yields competitive performance within 1{\%} of a domain-adapted, entirely fine-tuned sentence embedding model while only training approximately 3.6{\%} of the parameters."
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{schopf-etal-2023-aspectcse,
+    title = "{A}spect{CSE}: Sentence Embeddings for Aspect-Based Semantic Textual Similarity Using Contrastive Learning and Structured Knowledge",
+    author = "Schopf, Tim  and
+      Gerber, Emanuel  and
+      Ostendorff, Malte  and
+      Matthes, Florian",
+    editor = "Mitkov, Ruslan  and
+      Angelova, Galia",
+    booktitle = "Proceedings of the 14th International Conference on Recent Advances in Natural Language Processing",
+    month = sep,
+    year = "2023",
+    address = "Varna, Bulgaria",
+    publisher = "INCOMA Ltd., Shoumen, Bulgaria",
+    url = "https://aclanthology.org/2023.ranlp-1.113/",
+    pages = "1054--1065",
+    abstract = "Generic sentence embeddings provide coarse-grained approximation of semantic textual similarity, but ignore specific aspects that make texts similar. Conversely, aspect-based sentence embeddings provide similarities between texts based on certain predefined aspects. Thus, similarity predictions of texts are more targeted to specific requirements and more easily explainable. In this paper, we present AspectCSE, an approach for aspect-based contrastive learning of sentence embeddings. Results indicate that AspectCSE achieves an average improvement of 3.97{\%} on information retrieval tasks across multiple aspects compared to the previous best results. We also propose the use of Wikidata knowledge graph properties to train models of multi-aspect sentence embeddings in which multiple specific aspects are simultaneously considered during similarity predictions. We demonstrate that multi-aspect embeddings outperform even single-aspect embeddings on aspect-specific information retrieval tasks. Finally, we examine the aspect-based sentence embedding space and demonstrate that embeddings of semantically similar aspect labels are often close, even without explicit similarity training between different aspect labels."
+}
+@conference{kmis23,
+author={Tim Schopf and Nektarios Machner and Florian Matthes},
+title={A Knowledge Graph Approach for Exploratory Search in Research Institutions},
+booktitle={Proceedings of the 15th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management - KMIS},
+year={2023},
+pages={265-270},
+publisher={SciTePress},
+organization={INSTICC},
+doi={10.5220/0012223800003598},
+isbn={978-989-758-671-2},
+issn={2184-3228},
+}
+@inproceedings{meisenbacher-etal-2024-improved,
+    title = "An Improved Method for Class-specific Keyword Extraction: A Case Study in the {G}erman Business Registry",
+    author = "Meisenbacher, Stephen  and
+      Schopf, Tim  and
+      Yan, Weixin  and
+      Holl, Patrick  and
+      Matthes, Florian",
+    editor = "Luz de Araujo, Pedro Henrique  and
+      Baumann, Andreas  and
+      Gromann, Dagmar  and
+      Krenn, Brigitte  and
+      Roth, Benjamin  and
+      Wiegand, Michael",
+    booktitle = "Proceedings of the 20th Conference on Natural Language Processing (KONVENS 2024)",
+    month = sep,
+    year = "2024",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.konvens-main.18/",
+    pages = "159--165"
+}
+@INPROCEEDINGS{10123521,
+  author={Schopf, Tim and Dresse, Kilian and Matthes, Florian},
+  booktitle={2022 5th International Conference on Artificial Intelligence for Industries (AI4I)},
+  title={Towards AI Platforms for Stationary Retail},
+  year={2022},
+  volume={},
+  number={},
+  pages={22-22},
+  keywords={Industries;Digital twins;Artificial intelligence;Business;Digital Twin;AI Platform;Retail;Knowledge4Retail},
+  doi={10.1109/AI4I54798.2022.00012}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@inproceedings{10.1145/3535782.3535835,
+author = {Schopf, Tim and Weinberger, Peter and Kinkeldei, Thomas and Matthes, Florian},
+title = {Towards Bilingual Word Embedding Models for Engineering: Evaluating Semantic Linking Capabilities of Engineering-Specific Word Embeddings Across Languages},
+year = {2022},
+isbn = {9781450395816},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3535782.3535835},
+doi = {10.1145/3535782.3535835},
+abstract = {Word embeddings represent the semantic meanings of words in high-dimensional vector space. Because of this capability, word embeddings could be used in a wide range of Natural Language Processing (NLP) tasks. While domain-specific monolingual word embeddings are common in literature, domain-specific bilingual word embeddings are uncommon. In general, large text corpora are required for training high quality word embeddings. Furthermore, training domain-specific word embeddings necessitates the use of source texts from the relevant domain. To train bilingual domain-specific word embeddings, the domain-specific texts must also be available in two different languages. In this paper, we use a large dataset of engineering-related articles in German and English to train bilingual engineering-specific word embedding models using different approaches. We will evaluate our trained models, identify the most promising approach, and demonstrate that the best performing one is very capable of representing semantic relationships between engineering-specific words and mapping languages in a shared vector space. Moreover, we show that the additional use of an engineering-specific learning dictionary can improve the quality of bilingual engineering-specific word embeddings.},
+booktitle = {Proceedings of the 4th International Conference on Management Science and Industrial Engineering},
+pages = {407–413},
+numpages = {7},
+location = {Chiang Mai, Thailand},
+series = {MSIE '22}
 }
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{10.1145/3460824.3460826,
+author = {Braun, Daniel and Klymenko, Oleksandra and Schopf, Tim and Kaan Akan, Yusuf and Matthes, Florian},
+title = {The Language of Engineering: Training a Domain-Specific Word Embedding Model for Engineering},
+year = {2021},
+isbn = {9781450388887},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3460824.3460826},
+doi = {10.1145/3460824.3460826},
+abstract = {Since the introduction of Word2Vec in 2013, so-called word embeddings, dense vector representation of words that are supposed to capture their semantic meaning, have become a universally applied technique in a wide range of Natural Language Processing (NLP) tasks and domains. The vector representations they provide are learned on huge corpora of unlabeled text data. Due to the large amount of data and computing power that is necessary to train such embedding models, very often, pre-trained models are applied which have been trained on domain unspecific data like newspaper articles or Wikipedia entries. In this paper, we present a domain-specific embedding model that is trained exclusively on texts from the domain of engineering. We will show that such a domain-specific embeddings model performs better in different NLP tasks and can therefore help to improve NLP-based AI in the domain of Engineering.},
+booktitle = {Proceedings of the 2021 3rd International Conference on Management Science and Industrial Engineering},
+pages = {8–12},
+numpages = {5},
+keywords = {Engineering, Word Embeddings},
+location = {Osaka, Japan},
+series = {MSIE '21}
+}
+@misc{schneider2024enterpriseusecasescombining,
+      title={Enterprise Use Cases Combining Knowledge Graphs and Natural Language Processing},
+      author={Phillip Schneider and Tim Schopf and Juraj Vladika and Florian Matthes},
+      year={2024},
+      eprint={2404.01443},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2404.01443},
 }
