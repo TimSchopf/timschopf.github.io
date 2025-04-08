@@ -196,7 +196,6 @@ exclude:
   - _pages/repositories.md
   - _pages/dropdown.md
   - _pages/teaching.md
-  - _pages/cv.md
   - _pages/projects.md
   - _news/
 keep_files:
@@ -637,8 +636,8 @@ jekyll_get_json:
     json: assets/json/resume.json # it can also be an url
 
 jsonresume:
-  - basics
-  - work
+  - general information
+  - professional experience
   - education
   - publications
   - projects
@@ -647,5 +646,5 @@ jsonresume:
   - certificates
   - skills
   - languages
-  - interests
+  - research interests
   - references

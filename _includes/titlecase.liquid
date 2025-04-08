@@ -1,0 +1,4 @@
+{% assign words = include.text | split: ' ' %}
+{% for word in words %}
+  {{ word | capitalize }}{% unless forloop.last %} {% endunless %}
+{% endfor %}
