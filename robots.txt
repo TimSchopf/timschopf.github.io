@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://timschopf.github.io./sitemap.xml
+Sitemap: https://timschopf.github.io/sitemap.xml
