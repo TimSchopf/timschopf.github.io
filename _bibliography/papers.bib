@@ -8,14 +8,16 @@
     booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)",
     month = aug,
     year = "2024",
-    address = "Bangkok, Thailand",
+    location = "Bangkok, Thailand",
     publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2024.acl-demos.13/",
-    doi = "10.18653/v1/2024.acl-demos.13",
+    url = "https://aclanthology.org/2024.acl-demos.13",
     pages = "127--135",
-    abstract = "Scientific literature searches are often exploratory, whereby users are not yet familiar with a particular field or concept but are interested in learning more about it. However, existing systems for scientific literature search are typically tailored to keyword-based lookup searches, limiting the possibilities for exploration. We propose NLP-KG, a feature-rich system designed to support the exploration of research literature in unfamiliar natural language processing (NLP) fields. In addition to a semantic search, NLP-KG allows users to easily find survey papers that provide a quick introduction to a field of interest. Further, a Fields of Study hierarchy graph enables users to familiarize themselves with a field and its related areas. Finally, a chat interface allows users to ask questions about unfamiliar concepts or specific articles in NLP and obtain answers grounded in knowledge retrieved from scientific publications. Our system provides users with comprehensive exploration possibilities, supporting them in investigating the relationships between different fields, understanding unfamiliar concepts in NLP, and finding relevant research literature. Demo, video, and code are available at: https://github.com/NLP-Knowledge-Graph/NLP-KG-WebApp."
+    website = "https://nlpkg.sebis.cit.tum.de",
+    github = "https://github.com/NLP-Knowledge-Graph/NLP-KG-WebApp",
+    abstract = "Scientific literature searches are often exploratory, whereby users are not yet familiar with a particular field or concept but are interested in learning more about it. However, existing systems for scientific literature search are typically tailored to keyword-based lookup searches, limiting the possibilities for exploration. We propose NLP-KG, a feature-rich system designed to support the exploration of research literature in unfamiliar natural language processing (NLP) fields. In addition to a semantic search, NLP-KG allows users to easily find survey papers that provide a quick introduction to a field of interest. Further, a Fields of Study hierarchy graph enables users to familiarize themselves with a field and its related areas. Finally, a chat interface allows users to ask questions about unfamiliar concepts or specific articles in NLP and obtain answers grounded in knowledge retrieved from scientific publications. Our system provides users with comprehensive exploration possibilities, supporting them in investigating the relationships between different fields, understanding unfamiliar concepts in NLP, and finding relevant research literature. Demo, video, and code are available at: https://github.com/NLP-Knowledge-Graph/NLP-KG-WebApp.",
+    preview="NLP-KG_architecture.pdf"
 }
-@conference{schopf_etal_kdir22,
+@inproceedings{schopf_etal_kdir22,
 author={Tim Schopf and Simon Klimek and Florian Matthes},
 title={PatternRank: Leveraging Pretrained Language Models and Part of Speech for Unsupervised Keyphrase Extraction},
 booktitle={Proceedings of the 14th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management (IC3K 2022) - KDIR},
@@ -23,9 +25,13 @@ year={2022},
 pages={243-248},
 publisher={SciTePress},
 organization={INSTICC},
-doi={10.5220/0011546600003335},
+url={https://www.scitepress.org/PublicationsDetail.aspx?ID=eFzwPdv14Io=&t=1},
 isbn={978-989-758-614-9},
 issn={2184-3228},
+abstract={Keyphrase extraction is the process of automatically selecting a small set of most relevant phrases from a given text. Supervised keyphrase extraction approaches need large amounts of labeled training data and perform poorly outside the domain of the training data (Bennani-Smires et al., 2018). In this paper, we present PatternRank, which leverages pretrained language models and part-of-speech for unsupervised keyphrase extraction from single documents. Our experiments show PatternRank achieves higher precision, recall and F1 -scores than previous state-of-the-art approaches. In addition, we present the KeyphraseVectorizers package, which allows easy modification of part-of-speech patterns for candidate keyphrase selection, and hence adaptation of our approach to any domain.},
+github={https://github.com/TimSchopf/KeyphraseVectorizers},
+location={Valletta, Malta},
+preview={Keyphrase_Extraction_Visualization.pdf}
 }
 
 @inproceedings{10.1145/3582768.3582795,
@@ -36,27 +42,32 @@ isbn = {9781450397629},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 url = {https://doi.org/10.1145/3582768.3582795},
-doi = {10.1145/3582768.3582795},
 abstract = {Text classification of unseen classes is a challenging Natural Language Processing task and is mainly attempted using two different types of approaches. Similarity-based approaches attempt to classify instances based on similarities between text document representations and class description representations. Zero-shot text classification approaches aim to generalize knowledge gained from a training task by assigning appropriate labels of unknown classes to text documents. Although existing studies have already investigated individual approaches to these categories, the experiments in literature do not provide a consistent comparison. This paper addresses this gap by conducting a systematic evaluation of different similarity-based and zero-shot approaches for text classification of unseen classes. Different state-of-the-art approaches are benchmarked on four text classification datasets, including a new dataset from the medical domain. Additionally, novel SimCSE [7] and SBERT-based [26] baselines are proposed, as other baselines used in existing work yield weak classification results and are easily outperformed. Finally, the novel similarity-based Lbl2TransformerVec approach is presented, which outperforms previous state-of-the-art approaches in unsupervised text classification. Our experiments show that similarity-based approaches significantly outperform zero-shot approaches in most cases. Additionally, using SimCSE or SBERT embeddings instead of simpler text representations increases similarity-based classification results even further.},
 booktitle = {Proceedings of the 2022 6th International Conference on Natural Language Processing and Information Retrieval},
 pages = {6–15},
 numpages = {10},
 keywords = {Natural Language Processing, Unsupervised Text Classification, Zero-shot Text Classification},
 location = {Bangkok, Thailand},
-series = {NLPIR '22}
+series = {NLPIR '22},
+github = {https://github.com/sebischair/Medical-Abstracts-TC-Corpus},
+preview = {UMAPs.pdf}
 }
 
-@conference{webist21,
+@inproceedings{webist21,
 author={Tim Schopf and Daniel Braun and Florian Matthes},
 title={Lbl2Vec: An Embedding-based Approach for Unsupervised Document Retrieval on Predefined Topics},
 booktitle={Proceedings of the 17th International Conference on Web Information Systems and Technologies - WEBIST},
 year={2021},
 pages={124-132},
+location={online},
 publisher={SciTePress},
 organization={INSTICC},
-doi={10.5220/0010710300003058},
+url={https://www.scitepress.org/Link.aspx?doi=10.5220/0010710300003058},
 isbn={978-989-758-536-4},
 issn={2184-3252},
+github={https://github.com/sebischair/Lbl2Vec},
+abstract={In this paper, we consider the task of retrieving documents with predefined topics from an unlabeled document dataset using an unsupervised approach. The proposed unsupervised approach requires only a small number of keywords describing the respective topics and no labeled document. Existing approaches either heavily relied on a large amount of additionally encoded world knowledge or on term-document frequencies. Contrariwise, we introduce a method that learns jointly embedded document and word vectors solely from the unlabeled document dataset in order to find documents that are semantically similar to the topics described by the keywords. The proposed method requires almost no text preprocessing but is simultaneously effective at retrieving relevant documents with high probability. When successively retrieving documents on different predefined topics from publicly available and commonly used datasets, we achieved an average area under the receiver operating characteristic curve val ue of 0.95 on one dataset and 0.92 on another. Further, our method can be used for multiclass document classification, without the need to assign labels to the dataset in advance. Compared with an unsupervised classification baseline, we increased F1 scores from 76.6 to 82.7 and from 61.0 to 75.1 on the respective datasets. For easy replication of our approach, we make the developed Lbl2Vec code publicly available as a ready-to-use tool under the 3-Clause BSD license.},
+preview={Basketball_semantic_feature_space.pdf}
 }
 
 @InProceedings{10.1007/978-3-031-24197-0_4,
@@ -73,7 +84,10 @@ publisher="Springer International Publishing",
 address="Cham",
 pages="59--73",
 abstract="In this paper, we evaluate the Lbl2Vec approach for unsupervised text document classification. Lbl2Vec requires only a small number of keywords describing the respective classes to create semantic label representations. For classification, Lbl2Vec uses cosine similarities between label and document representations, but no annotation information. We show that Lbl2Vec significantly outperforms common unsupervised text classification approaches and a widely used zero-shot text classification approach. Furthermore, we show that using more precise keywords can significantly improve the classification results of similarity-based text classification approaches.",
-isbn="978-3-031-24197-0"
+isbn="978-3-031-24197-0",
+url="https://link.springer.com/chapter/10.1007/978-3-031-24197-0_4",
+github="https://github.com/sebischair/Lbl2Vec",
+preview="Doc2Vec_example.pdf"
 }
 
 @inproceedings{schneider-etal-2022-decade,
@@ -94,10 +108,12 @@ isbn="978-3-031-24197-0"
     year = "2022",
     address = "Online only",
     publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2022.aacl-main.46/",
-    doi = "10.18653/v1/2022.aacl-main.46",
+    url = "https://aclanthology.org/2022.aacl-main.46",
     pages = "601--614",
-    abstract = "In pace with developments in the research field of artificial intelligence, knowledge graphs (KGs) have attracted a surge of interest from both academia and industry. As a representation of semantic relations between entities, KGs have proven to be particularly relevant for natural language processing (NLP), experiencing a rapid spread and wide adoption within recent years. Given the increasing amount of research work in this area, several KG-related approaches have been surveyed in the NLP research community. However, a comprehensive study that categorizes established topics and reviews the maturity of individual research streams remains absent to this day. Contributing to closing this gap, we systematically analyzed 507 papers from the literature on KGs in NLP. Our survey encompasses a multifaceted review of tasks, research types, and contributions. As a result, we present a structured overview of the research landscape, provide a taxonomy of tasks, summarize our findings, and highlight directions for future work."
+    abstract = "In pace with developments in the research field of artificial intelligence, knowledge graphs (KGs) have attracted a surge of interest from both academia and industry. As a representation of semantic relations between entities, KGs have proven to be particularly relevant for natural language processing (NLP), experiencing a rapid spread and wide adoption within recent years. Given the increasing amount of research work in this area, several KG-related approaches have been surveyed in the NLP research community. However, a comprehensive study that categorizes established topics and reviews the maturity of individual research streams remains absent to this day. Contributing to closing this gap, we systematically analyzed 507 papers from the literature on KGs in NLP. Our survey encompasses a multifaceted review of tasks, research types, and contributions. As a result, we present a structured overview of the research landscape, provide a taxonomy of tasks, summarize our findings, and highlight directions for future work.",
+    github = "https://github.com/sebischair/KG-in-NLP-survey",
+    location={online},
+    preview="task_taxonomy.pdf"
 }
 @inproceedings{schopf-etal-2024-efficient,
     title = "Efficient Few-shot Learning for Multi-label Classification of Scientific Documents with Many Classes",
@@ -110,10 +126,13 @@ isbn="978-3-031-24197-0"
     booktitle = "Proceedings of the 7th International Conference on Natural Language and Speech Processing (ICNLSP 2024)",
     month = oct,
     year = "2024",
-    address = "Trento",
+    location = "Trento, Italy",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2024.icnlsp-1.21/",
-    pages = "186--198"
+    pages = "186--198",
+    github = "https://github.com/sebischair/FusionSent",
+    abstract = "Scientific document classification is a critical task and often involves many classes. However, collecting human-labeled data for many classes is expensive and usually leads to label-scarce scenarios. Moreover, recent work has shown that sentence embedding model fine-tuning for few-shot classification is efficient, robust, and effective. In this work, we propose FusionSent (Fusion-based Sentence Embedding Fine-tuning), an efficient and prompt-free approach for few-shot classification of scientific documents with many classes. FusionSent uses available training examples and their respective label texts to contrastively fine-tune two different sentence embedding models. Afterward, the parameters of both fine-tuned models are fused to combine the complementary knowledge from the separate fine-tuning steps into a single model. Finally, the resulting sentence embedding model is frozen to embed the training instances, which are then used as input features to train a classification head. Our experiments show that FusionSent significantly outperforms strong baselines by an average of 6.0 F1 points across multiple scientific document classification datasets. In addition, we introduce a new dataset for multi-label classification of scientific documents, which contains 203,961 scientific articles and 130 classes from the arXiv category taxonomy.",
+    preview = "fusionsent.png"
 }
 @inproceedings{schopf-etal-2023-exploring,
     title = "Exploring the Landscape of Natural Language Processing Research",
@@ -125,11 +144,13 @@ isbn="978-3-031-24197-0"
     booktitle = "Proceedings of the 14th International Conference on Recent Advances in Natural Language Processing",
     month = sep,
     year = "2023",
-    address = "Varna, Bulgaria",
+    location = "Varna, Bulgaria",
     publisher = "INCOMA Ltd., Shoumen, Bulgaria",
     url = "https://aclanthology.org/2023.ranlp-1.111/",
     pages = "1034--1045",
-    abstract = "As an efficient approach to understand, generate, and process natural language texts, research in natural language processing (NLP) has exhibited a rapid spread and wide adoption in recent years. Given the increasing research work in this area, several NLP-related approaches have been surveyed in the research community. However, a comprehensive study that categorizes established topics, identifies trends, and outlines areas for future research remains absent. Contributing to closing this gap, we have systematically classified and analyzed research papers in the ACL Anthology. As a result, we present a structured overview of the research landscape, provide a taxonomy of fields of study in NLP, analyze recent developments in NLP, summarize our findings, and highlight directions for future work."
+    abstract = "As an efficient approach to understand, generate, and process natural language texts, research in natural language processing (NLP) has exhibited a rapid spread and wide adoption in recent years. Given the increasing research work in this area, several NLP-related approaches have been surveyed in the research community. However, a comprehensive study that categorizes established topics, identifies trends, and outlines areas for future research remains absent. Contributing to closing this gap, we have systematically classified and analyzed research papers in the ACL Anthology. As a result, we present a structured overview of the research landscape, provide a taxonomy of fields of study in NLP, analyze recent developments in NLP, summarize our findings, and highlight directions for future work.",
+    github = "https://github.com/sebischair/Exploring-NLP-Research",
+    preview = "NLP-Taxonomy.pdf"
 }
 
 @inproceedings{schopf-etal-2023-efficient,
@@ -142,11 +163,12 @@ isbn="978-3-031-24197-0"
     booktitle = "Proceedings of the 14th International Conference on Recent Advances in Natural Language Processing",
     month = sep,
     year = "2023",
-    address = "Varna, Bulgaria",
+    location = "Varna, Bulgaria",
     publisher = "INCOMA Ltd., Shoumen, Bulgaria",
     url = "https://aclanthology.org/2023.ranlp-1.112/",
     pages = "1046--1053",
-    abstract = "Sentence embeddings enable us to capture the semantic similarity of short texts. Most sentence embedding models are trained for general semantic textual similarity tasks. Therefore, to use sentence embeddings in a particular domain, the model must be adapted to it in order to achieve good results. Usually, this is done by fine-tuning the entire sentence embedding model for the domain of interest. While this approach yields state-of-the-art results, all of the model`s weights are updated during fine-tuning, making this method resource-intensive. Therefore, instead of fine-tuning entire sentence embedding models for each target domain individually, we propose to train lightweight adapters. These domain-specific adapters do not require fine-tuning all underlying sentence embedding model parameters. Instead, we only train a small number of additional parameters while keeping the weights of the underlying sentence embedding model fixed. Training domain-specific adapters allows always using the same base model and only exchanging the domain-specific adapters to adapt sentence embeddings to a specific domain. We show that using adapters for parameter-efficient domain adaptation of sentence embeddings yields competitive performance within 1{\%} of a domain-adapted, entirely fine-tuned sentence embedding model while only training approximately 3.6{\%} of the parameters."
+    abstract = "Sentence embeddings enable us to capture the semantic similarity of short texts. Most sentence embedding models are trained for general semantic textual similarity tasks. Therefore, to use sentence embeddings in a particular domain, the model must be adapted to it in order to achieve good results. Usually, this is done by fine-tuning the entire sentence embedding model for the domain of interest. While this approach yields state-of-the-art results, all of the model`s weights are updated during fine-tuning, making this method resource-intensive. Therefore, instead of fine-tuning entire sentence embedding models for each target domain individually, we propose to train lightweight adapters. These domain-specific adapters do not require fine-tuning all underlying sentence embedding model parameters. Instead, we only train a small number of additional parameters while keeping the weights of the underlying sentence embedding model fixed. Training domain-specific adapters allows always using the same base model and only exchanging the domain-specific adapters to adapt sentence embeddings to a specific domain. We show that using adapters for parameter-efficient domain adaptation of sentence embeddings yields competitive performance within 1% of a domain-adapted, entirely fine-tuned sentence embedding model while only training approximately 3.6% of the parameters.",
+    preview = {Adapter-based_Sentence_Embedding.pdf}
 }
 
 @inproceedings{schopf-etal-2023-aspectcse,
@@ -160,13 +182,14 @@ isbn="978-3-031-24197-0"
     booktitle = "Proceedings of the 14th International Conference on Recent Advances in Natural Language Processing",
     month = sep,
     year = "2023",
-    address = "Varna, Bulgaria",
+    location = "Varna, Bulgaria",
     publisher = "INCOMA Ltd., Shoumen, Bulgaria",
     url = "https://aclanthology.org/2023.ranlp-1.113/",
     pages = "1054--1065",
-    abstract = "Generic sentence embeddings provide coarse-grained approximation of semantic textual similarity, but ignore specific aspects that make texts similar. Conversely, aspect-based sentence embeddings provide similarities between texts based on certain predefined aspects. Thus, similarity predictions of texts are more targeted to specific requirements and more easily explainable. In this paper, we present AspectCSE, an approach for aspect-based contrastive learning of sentence embeddings. Results indicate that AspectCSE achieves an average improvement of 3.97{\%} on information retrieval tasks across multiple aspects compared to the previous best results. We also propose the use of Wikidata knowledge graph properties to train models of multi-aspect sentence embeddings in which multiple specific aspects are simultaneously considered during similarity predictions. We demonstrate that multi-aspect embeddings outperform even single-aspect embeddings on aspect-specific information retrieval tasks. Finally, we examine the aspect-based sentence embedding space and demonstrate that embeddings of semantically similar aspect labels are often close, even without explicit similarity training between different aspect labels."
+    abstract = "Generic sentence embeddings provide coarse-grained approximation of semantic textual similarity, but ignore specific aspects that make texts similar. Conversely, aspect-based sentence embeddings provide similarities between texts based on certain predefined aspects. Thus, similarity predictions of texts are more targeted to specific requirements and more easily explainable. In this paper, we present AspectCSE, an approach for aspect-based contrastive learning of sentence embeddings. Results indicate that AspectCSE achieves an average improvement of 3.97{\%} on information retrieval tasks across multiple aspects compared to the previous best results. We also propose the use of Wikidata knowledge graph properties to train models of multi-aspect sentence embeddings in which multiple specific aspects are simultaneously considered during similarity predictions. We demonstrate that multi-aspect embeddings outperform even single-aspect embeddings on aspect-specific information retrieval tasks. Finally, we examine the aspect-based sentence embedding space and demonstrate that embeddings of semantically similar aspect labels are often close, even without explicit similarity training between different aspect labels.",
+    preview = "Aspect-based-Contrastive-Learning-Figure.pdf"
 }
-@conference{kmis23,
+@inproceedings{kmis23,
 author={Tim Schopf and Nektarios Machner and Florian Matthes},
 title={A Knowledge Graph Approach for Exploratory Search in Research Institutions},
 booktitle={Proceedings of the 15th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management - KMIS},
@@ -174,9 +197,12 @@ year={2023},
 pages={265-270},
 publisher={SciTePress},
 organization={INSTICC},
-doi={10.5220/0012223800003598},
+url={https://www.scitepress.org/Link.aspx?doi=10.5220/0012223800003598},
 isbn={978-989-758-671-2},
 issn={2184-3228},
+location={Rome, Italy},
+abstract={Over the past decades, research institutions have grown increasingly and consequently also their research output. This poses a significant challenge for researchers seeking to understand the research landscape of an institution. The process of exploring the research landscape of institutions has a vague information need, no precise goal, and is open-ended. Current applications are not designed to fulfill the requirements for exploratory search in research institutions. In this paper, we analyze exploratory search in research institutions and propose a knowledge graph-based approach to enhance this process.},
+preview={rikg-app-screenshot.pdf}
 }
 @inproceedings{meisenbacher-etal-2024-improved,
     title = "An Improved Method for Class-specific Keyword Extraction: A Case Study in the {G}erman Business Registry",
@@ -194,21 +220,26 @@ issn={2184-3228},
     booktitle = "Proceedings of the 20th Conference on Natural Language Processing (KONVENS 2024)",
     month = sep,
     year = "2024",
-    address = "Vienna, Austria",
+    location = "Vienna, Austria",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2024.konvens-main.18/",
-    pages = "159--165"
+    pages = "159--165",
+    abstract = "The task of keyword extraction is often an important initial step in unsupervised information extraction, forming the basis for tasks such as topic modeling or document classification. While recent methods have proven to be quite effective in the extraction of keywords, the identification of class-specific keywords, or only those pertaining to a predefined class, remains challenging. In this work, we propose an improved method for class-specific keyword extraction, which builds upon the popular KeyBERT library to identify only keywords related to a class described by seed keywords. We test this method using a dataset of German business registry entries, where the goal is to classify each business according to an economic sector. Our results reveal that our method greatly improves upon previous approaches, setting a new standard for class-specific keyword extraction.",
+    github = "https://github.com/sjmeis/CSKE",
+    preview = "konvens24.png"
 }
 @INPROCEEDINGS{10123521,
   author={Schopf, Tim and Dresse, Kilian and Matthes, Florian},
   booktitle={2022 5th International Conference on Artificial Intelligence for Industries (AI4I)},
   title={Towards AI Platforms for Stationary Retail},
+  location={Laguna Hills, CA, USA},
   year={2022},
   volume={},
   number={},
   pages={22-22},
   keywords={Industries;Digital twins;Artificial intelligence;Business;Digital Twin;AI Platform;Retail;Knowledge4Retail},
-  doi={10.1109/AI4I54798.2022.00012}
+  url={https://ieeexplore.ieee.org/document/10123521},
+  abstract={A major challenge for stationary retail is the increasing digitization of business. While online retailers can increase their sales through data-driven AI applications, brick-and-mortar retailers are left behind because they have less data available due to their traditional physical stores. To bridge the gap between physical stores and online stores, in this paper, an AI platform that connects the digital world with stationary retail is proposed. A digital twin, which represents instances of physical stores in digital form, builds the core of the AI platform. The AI platform can enable digital business models, as well as sales and operations processes that have not been possible to date.}
 }
 
 @inproceedings{10.1145/3535782.3535835,
@@ -219,13 +250,13 @@ isbn = {9781450395816},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 url = {https://doi.org/10.1145/3535782.3535835},
-doi = {10.1145/3535782.3535835},
 abstract = {Word embeddings represent the semantic meanings of words in high-dimensional vector space. Because of this capability, word embeddings could be used in a wide range of Natural Language Processing (NLP) tasks. While domain-specific monolingual word embeddings are common in literature, domain-specific bilingual word embeddings are uncommon. In general, large text corpora are required for training high quality word embeddings. Furthermore, training domain-specific word embeddings necessitates the use of source texts from the relevant domain. To train bilingual domain-specific word embeddings, the domain-specific texts must also be available in two different languages. In this paper, we use a large dataset of engineering-related articles in German and English to train bilingual engineering-specific word embedding models using different approaches. We will evaluate our trained models, identify the most promising approach, and demonstrate that the best performing one is very capable of representing semantic relationships between engineering-specific words and mapping languages in a shared vector space. Moreover, we show that the additional use of an engineering-specific learning dictionary can improve the quality of bilingual engineering-specific word embeddings.},
 booktitle = {Proceedings of the 4th International Conference on Management Science and Industrial Engineering},
 pages = {407–413},
 numpages = {7},
 location = {Chiang Mai, Thailand},
-series = {MSIE '22}
+series = {MSIE '22},
+preview = {word_embeddings.png}
 }
 @inproceedings{10.1145/3460824.3460826,
 author = {Braun, Daniel and Klymenko, Oleksandra and Schopf, Tim and Kaan Akan, Yusuf and Matthes, Florian},
@@ -235,7 +266,6 @@ isbn = {9781450388887},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 url = {https://doi.org/10.1145/3460824.3460826},
-doi = {10.1145/3460824.3460826},
 abstract = {Since the introduction of Word2Vec in 2013, so-called word embeddings, dense vector representation of words that are supposed to capture their semantic meaning, have become a universally applied technique in a wide range of Natural Language Processing (NLP) tasks and domains. The vector representations they provide are learned on huge corpora of unlabeled text data. Due to the large amount of data and computing power that is necessary to train such embedding models, very often, pre-trained models are applied which have been trained on domain unspecific data like newspaper articles or Wikipedia entries. In this paper, we present a domain-specific embedding model that is trained exclusively on texts from the domain of engineering. We will show that such a domain-specific embeddings model performs better in different NLP tasks and can therefore help to improve NLP-based AI in the domain of Engineering.},
 booktitle = {Proceedings of the 2021 3rd International Conference on Management Science and Industrial Engineering},
 pages = {8–12},
@@ -244,12 +274,13 @@ keywords = {Engineering, Word Embeddings},
 location = {Osaka, Japan},
 series = {MSIE '21}
 }
-@misc{schneider2024enterpriseusecasescombining,
+@inproceedings{schneider2024enterpriseusecasescombining,
       title={Enterprise Use Cases Combining Knowledge Graphs and Natural Language Processing},
+      booktitle={Informing Possible Future Worlds. Essays in Honour of Ulrich Frank},
       author={Phillip Schneider and Tim Schopf and Juraj Vladika and Florian Matthes},
       year={2024},
-      eprint={2404.01443},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2404.01443},
+      pages={271-285},
+      url={https://doi.org/10.30819/5768},
+      abstract={Knowledge management is a critical challenge for enterprises in today's digital world, as the volume and complexity of data being generated and collected continue to grow incessantly. Knowledge graphs (KG) emerged as a promising solution to this problem by providing a flexible, scalable, and semantically rich way to organize and make sense of data. This paper builds upon a recent survey of the research literature on combining KGs and Natural Language Processing (NLP). Based on selected application scenarios from enterprise context, we discuss synergies that result from such a combination. We cover various approaches from the three core areas of KG construction, reasoning as well as KG-based NLP tasks. In addition to explaining innovative enterprise use cases, we assess their maturity in terms of practical applicability and conclude with an outlook on emergent application areas for the future.},
+      preview={rq2_task_domain_bar.pdf}
 }
