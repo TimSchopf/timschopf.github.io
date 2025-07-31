@@ -23,7 +23,16 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "projects-createdata4ai",
+        },{id: "news-our-paper-nlp-kg-a-system-for-exploratory-search-of-scientific-literature-in-natural-language-processing-has-been-accepted-to-acl-2024-see-you-in-bangkok",
+          title: 'Our paper NLP-KG: A System for Exploratory Search of Scientific Literature in Natural...',
+          description: "",
+          section: "News",},{id: "news-i-joined-the-research-group-of-prof-michael-färber-at-scads-ai-amp-amp-tu-dresden-as-a-postdoctoral-researcher",
+          title: 'I joined the research group of Prof. Michael Färber at ScaDS.AI &amp;amp;amp; TU...',
+          description: "",
+          section: "News",},{id: "news-we-won-1st-place-in-the-scihal-2025-shared-task-on-hallucination-detection-for-scientific-content-at-acl-check-out-our-paper-to-learn-more-about-our-winning-approach-see-you-in-vienna",
+          title: '🏆 We won 1st place in the SciHal 2025 Shared Task on Hallucination...',
+          description: "",
+          section: "News",},{id: "projects-createdata4ai",
           title: 'CreateData4AI',
           description: "Leveraging Domain Knowledge and Context Rules to Transform Large-Scale Unstructured Text Corpora into Structured and Annotated Datasets",
           section: "Projects",handler: () => {
