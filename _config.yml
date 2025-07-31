@@ -50,7 +50,7 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
-posts_in_search: false #ToDo: set to true, once teh website includes posts
+posts_in_search: false #ToDo: set to true, once the website includes posts
 bib_search: true
 
 # Dimensions
@@ -170,7 +170,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages", "_scripts"]
+include: ["_pages", "_scripts", "_pages/news.md"]
 exclude:
   - bin/
   - CONTRIBUTING.md
@@ -197,7 +197,6 @@ exclude:
   - _pages/dropdown.md
   - _pages/teaching.md
   - _pages/projects.md
-  - _news/
 keep_files:
   - CNAME
   - .nojekyll
