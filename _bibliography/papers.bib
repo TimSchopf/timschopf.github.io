@@ -286,6 +286,20 @@ series = {MSIE '21}
       preview={rq2_task_domain_bar.png}
 }
 
+@inproceedings{schreieder2025attributioncitationquotationsurvey,
+      title={Attribution, Citation, and Quotation: A Survey of Evidence-based Text Generation with Large Language Models},
+      author={Tobias Schreieder and Tim Schopf and Michael Färber},
+      booktitle={arXiv},
+      month={Aug},
+      year={2025},
+      eprint={2508.15396},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2508.15396},
+      abstract = {The increasing adoption of large language models (LLMs) has been accompanied by growing concerns regarding their reliability and trustworthiness. As a result, a growing body of research focuses on evidence-based text generation with LLMs, aiming to link model outputs to supporting evidence to ensure traceability and verifiability. However, the field is fragmented due to inconsistent terminology, isolated evaluation practices, and a lack of unified benchmarks. To bridge this gap, we systematically analyze 134 papers, introduce a unified taxonomy of evidence-based text generation with LLMs, and investigate 300 evaluation metrics across seven key dimensions. Thereby, we focus on approaches that use citations, attribution, or quotations for evidence-based text generation. Building on this, we examine the distinctive characteristics and representative methods in the field. Finally, we highlight open challenges and outline promising directions for future work.},
+      preview= {evidence-based-text-generation.png}
+}
+
 @inproceedings{schopf-etal-2025-natural,
     title = "Natural Language Inference Fine-tuning for Scientific Hallucination Detection",
     author = {Schopf, Tim  and
@@ -302,7 +316,7 @@ series = {MSIE '21}
     pages = "344--352",
     ISBN = "979-8-89176-265-7",
     abstract = "Modern generative Large Language Models (LLMs) are capable of generating text that sounds coherent and convincing, but are also prone to producing \textit{hallucinations}, facts that contradict the world knowledge. Even in the case of Retrieval-Augmented Generation (RAG) systems, where relevant context is first retrieved and passed in the input, the generated facts can contradict or not be verifiable by the provided references. This has motivated SciHal 2025, a shared task that focuses on the detection of hallucinations for scientific content. The two subtasks focused on: (1) predicting whether a claim from a generated LLM answer is entailed, contradicted, or unverifiable by the used references; (2) predicting a fine-grained category of erroneous claims. Our best performing approach used an ensemble of fine-tuned encoder-only ModernBERT and DeBERTa-v3 models for classification. Out of nine competing teams, our approach achieved the first place in sub-task 1 and the second place in sub-task 2.",
-    preview= "scihal_ranking.png"
+    preview = "scihal_ranking.png"
 }
 
 @inproceedings{popovic-etal-2025-docie,
@@ -336,3 +350,4 @@ series = {MSIE '21}
     abstract = "Large, high-quality annotated corpora remain scarce in document-level entity and relation extraction in zero-shot or few-shot settings.In this paper, we present a fully automatic, LLM-based pipeline for synthetic data generation and in-context learning for document-level entity and relation extraction.In contrast to existing approaches that rely on manually annotated demonstrations or direct zero-shot inference, our method combines synthetic data generation with retrieval-based in-context learning, using a reasoning-optimized language model.This allows us to build a high-quality demonstration database without manual annotation and to dynamically retrieve relevant examples at inference time.Based on our approach we produce a synthetic dataset of over $5k$ Wikipedia abstracts with approximately $59k$ entities and $30k$ relation triples.Finally, we evaluate in-context learning performance on the DocIE shared task, extracting entities and relations from long documents in a zero-shot setting.The code and synthetic dataset are made available for future research.",
     preview= "xllm_pipeline.png"
 }
+
