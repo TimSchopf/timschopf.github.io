@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Researcher @ <a href="https://scads.ai">ScaDS.AI</a> & <a href="https://tu-dresden.de/?set_language=en">TU Dresden</a>
+subtitle: Postdoctoral Researcher @ <a href="https://scads.ai">ScaDS.AI</a> & <a href="https://tu-dresden.de/?set_language=en">TU Dresden</a>
 
 profile:
   align: right
