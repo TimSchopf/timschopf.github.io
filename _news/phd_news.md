@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I successfully defended my PhD thesis, titled “_Semantic Knowledge Representation and Grounded Natural Language Generation for Exploratory Search of Scholarly Literature_” at the [Technical University of Munich](https://www.tum.de/en)! 🎓 
+I successfully defended my PhD thesis, titled [Semantic Knowledge Representation and Grounded Natural Language Generation for Exploratory Search of Scholarly Literature](https://mediatum.ub.tum.de/?id=1774971&change_language=en) at the Technical University of Munich! 🎓 
