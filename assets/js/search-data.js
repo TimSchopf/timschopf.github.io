@@ -36,7 +36,7 @@ ninja.data = [{
           title: 'How can we condition LLMs to generate texts that are grounded in traceable...',
           description: "",
           section: "News",},{id: "news-i-successfully-defended-my-phd-thesis-titled-semantic-knowledge-representation-and-grounded-natural-language-generation-for-exploratory-search-of-scholarly-literature-at-the-technical-university-of-munich",
-          title: 'I successfully defended my PhD thesis, titled “Semantic Knowledge Representation and Grounded Natural...',
+          title: 'I successfully defended my PhD thesis, titled Semantic Knowledge Representation and Grounded Natural...',
           description: "",
           section: "News",},{id: "projects-createdata4ai",
           title: 'CreateData4AI',
