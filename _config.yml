@@ -2,17 +2,17 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Dr. Tim Schopf # the website title (if blank, full name will be used instead)
 first_name: Tim
-middle_name: 
+middle_name:
 last_name: Schopf
 contact_note: >
   Feel free to contact me on any topic!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website of Tim Schopf.
+  Personal website of Dr. Tim Schopf.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: Tim Schopf, AI, research, science, NLP, LLMs, large language models, KGs, knowledge graphs # add your own keywords or leave empty
+keywords: Dr. Tim Schopf, AI, research, science, NLP, LLMs, large language models, KGs, knowledge graphs # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: icons/favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -86,8 +86,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Tim Schopf # blog_name will be displayed in your blog page
-blog_description: Personal blog of Tim Schopf
+blog_name: Dr. Tim Schopf # blog_name will be displayed in your blog page
+blog_description: Personal blog of Dr. Tim Schopf
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
