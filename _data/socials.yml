@@ -2,15 +2,15 @@
 # the commented lines are the default social media links supported by the template
 # the socials will be displayed in the order they are defined here
 
+email: tim.schopf@t-online.de # your email address
 # acm_id: # your dl.acm.org/profile/id
 # blogger_url: # your blogger URL
 # bluesky_url: # your bluesky URL
-# dblp_url: # your DBLP profile url
+# dblp_url: https://dblp.org/pid/306/6212.html # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
-email: tim.schopf@t-online.de # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
-github_username: TImSchopf # your GitHub user name
+github_username: TimSchopf # your GitHub user name
 # gitlab_username: # your GitLab user name
 # ieee_id: # your ieeexplore.ieee.org/author/id
 # inspirehep_id: 1010907 # Inspire HEP author ID
@@ -28,11 +28,11 @@ orcid_id: 0000-0003-3849-0394 # your ORCID ID
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
-# research_gate_profile: # your profile on ResearchGate
-#rss_icon: false # set to true to show the RSS icon
-scholar_userid: -9pQaLQAAAAJ # your Google Scholar ID
+# research_gate_profile: Tim-Schopf-2 # your profile on ResearchGate
+# rss_icon: false # set to true to show the RSS icon
 # scopus_id: # your profile on Scopus
-# semanticscholar_id: # your Semantic Scholar ID
+# semanticscholar_id: Tim-Schopf/2120192839 # your Semantic Scholar ID
+scholar_userid: -9pQaLQAAAAJ # your Google Scholar ID
 # spotify_id: # your spotify id
 # stackoverflow_id: # your stackoverflow id
 # telegram_username: # your Telegram user name
@@ -45,7 +45,7 @@ scholar_userid: -9pQaLQAAAAJ # your Google Scholar ID
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-#custom_social: # can be any name here other than the ones already defined above
+# custom_social: # can be any name here other than the ones already defined above
 #  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
 #  title: Custom Social
 #  url: https://www.alberteinstein.com/
