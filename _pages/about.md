@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Postdoctoral Researcher @ <a href="https://scads.ai">ScaDS.AI</a> & <a href="https://tu-dresden.de/?set_language=en">TU Dresden</a>
+subtitle: AI Research Scientist @ <a href="https://www.nii.ac.jp/en">National Institute of Informatics (NII)</a>
 
 profile:
   align: right
@@ -27,8 +27,19 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I'm Tim! 👋
+Hi, I’m Tim! 👋
 
-I am a researcher in the field of **natural language processing** and **knowledge engineering**.
+I’m a researcher working at the intersection of **natural language processing (NLP)** and **knowledge engineering**, with a focus on making AI systems more reliable, transparent, and useful for science.
 
-Since January 2025, I am working as a postdoctoral researcher with [Prof. Michael Färber](https://faerber-lab.github.io), focusing on **evidence-based AI for science** and **AI-assisted scientific discovery**. During my PhD at the [Technical University of Munich](https://www.cs.cit.tum.de/sebis/team/alumni/tim-schopf), I investigated NLP and knowledge graph approaches to enhance exploratory searches for scholarly literature. My current research interests include _LLM hallucinations_, _attributed text generation_, _LLMs for scientific reasoning_, and _AI agents for scientific discovery_.
+Since March 2026, I have been an AI Research Scientist working with [Prof. Akiko Aizawa](http://www.nii.ac.jp/en/faculty/digital_content/aizawa_akiko/) at the [National Institute of Informatics (NII)](https://www.nii.ac.jp/en). My current work centers on **faithful natural language explanations of LLM hallucinations** and the development of **AI agents for scientific discovery**.
+
+Previously, as a postdoctoral researcher at [ScaDS.AI](https://scads.ai/), I worked on **evidence-based text generation**, exploring how LLMs can ground their outputs in traceable evidence. I completed my PhD at the [Technical University of Munich](https://www.cs.cit.tum.de/sebis/team/alumni/tim-schopf), where I investigated NLP and knowledge graph approaches to enhance exploratory searches for scholarly literature.
+
+My current research interests include:
+
+* Understanding, detecting, and mitigating **LLM hallucinations**
+* **Evidence-based text generation** (e.g., by attributing, citing, or quoting verifiable sources)
+* **LLMs for scientific reasoning**
+* **AI agents for scientific discovery**
+
+Broadly, I aim to build AI systems that don’t just generate fluent text, but produce **faithful, transparent, and scientifically grounded knowledge**.

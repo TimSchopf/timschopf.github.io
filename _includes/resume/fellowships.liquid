@@ -1,0 +1,45 @@
+<div class="list-groups">
+  {% assign certificates = data[1] | sort: 'date' | reverse %}
+  {% for content in certificates %}
+    <div class="list-group col-md-6">
+      <table class="table-cv list-group-table">
+        <tbody>
+          <tr>
+            {% if content.icon %}
+              <td class="list-group-category-icon">
+                <i class="{{ content.icon }}"></i>
+              </td>
+            {% else %}
+              <td class="list-group-category-icon"></td>
+            {% endif %}
+            
+            <!-- Calculate colspan for category title -->
+            {% assign i = 1 %}
+            {% for item in content.items %}
+              {% assign i = i | plus: 1 %}
+            {% endfor %}
+            <td colspan="{{ i }}" class="list-group-category">
+              <a href="{{ content.url | default: '#' }}">{{ content.name }}</a>
+            </td>
+          </tr>
+          
+          <tr>
+            <td></td>
+            <td class="list-group-name">
+              <b>{{ content.description }}</b>
+            </td>
+            <td class="list-group-name">
+              {% if content.date %}
+                {% assign date_parts = content.date | split: '-' %}
+                {% assign formatted_date = date_parts[1] | append: '/' | append: date_parts[0] %}
+                {{ formatted_date }}
+              {% else %}
+                {{ content.date }}
+              {% endif %}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  {% endfor %}
+</div>
