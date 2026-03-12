@@ -41,7 +41,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-joined-the-research-group-of-prof-akiko-aizawa-at-the-research-and-development-center-for-large-language-models-of-the-national-institute-of-informatics-this-international-research-stay-is-funded-by-a-scholarship-of-the-german-academic-exchange-service-daad",
           title: 'I joined the research group of Prof. Akiko Aizawa at the Research and...',
           description: "",
-          section: "News",},{id: "news-our-paper-is-this-idea-novel-an-automated-benchmark-for-judgment-of-research-ideas-lrec-2026-has-been-accepted-to-lrec-2026-see-you-in-mallorca",
+          section: "News",},{id: "news-our-paper-is-this-idea-novel-an-automated-benchmark-for-judgment-of-research-ideas-has-been-accepted-to-lrec-2026-see-you-in-mallorca",
           title: 'Our paper Is this Idea Novel? An Automated Benchmark for Judgment of Research...',
           description: "",
           section: "News",},{id: "projects-createdata4ai",
