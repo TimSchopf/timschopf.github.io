@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [Is this Idea Novel? An Automated Benchmark for Judgment of Research Ideas (LREC 2026)](https://arxiv.org/abs/2603.10303) has been accepted to LREC 2026. See you in Mallorca 🇪🇸!
+Our paper [Is this Idea Novel? An Automated Benchmark for Judgment of Research Ideas](https://arxiv.org/abs/2603.10303) has been accepted to LREC 2026. See you in Mallorca 🇪🇸!
