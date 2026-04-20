@@ -31,10 +31,20 @@
             <td class="list-group-name">
               {% if content.date %}
                 {% assign date_parts = content.date | split: '-' %}
-                {% assign formatted_date = date_parts[1] | append: '/' | append: date_parts[0] %}
-                {{ formatted_date }}
-              {% else %}
-                {{ content.date }}
+
+                {% if date_parts.size == 1 %}
+                  {{ date_parts[0] }}
+
+                {% elsif date_parts.size == 2 %}
+                  {% if date_parts[1].size == 2 %}
+                    {{ date_parts[1] }}/{{ date_parts[0] }}
+                  {% else %}
+                    {{ date_parts[0] }}–{{ date_parts[1] }}
+                  {% endif %}
+
+                {% elsif date_parts.size == 3 %}
+                  {{ date_parts[1] }}/{{ date_parts[0] }}
+                {% endif %}
               {% endif %}
             </td>
           </tr>
