@@ -37,7 +37,7 @@ Previously, as a postdoctoral researcher at [ScaDS.AI](https://scads.ai/), I wor
 
 My current research interests include:
 
-* Understanding, detecting, and mitigating **LLM hallucinations** (e.g., through automatic claim verification, faithful explanation generation, and grounding outputs in external knowledge)
+* Understanding, detecting, and mitigating **LLM hallucinations** (e.g., through faithful explanation generation, automatic claim verification, or grounding outputs in external knowledge)
 * **Evidence-based text generation** (e.g., by attributing, citing, or quoting verifiable sources)
 * **LLMs for scientific reasoning**
 * **AI agents for scientific discovery**
