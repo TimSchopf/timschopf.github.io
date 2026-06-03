@@ -301,20 +301,6 @@ preview="Doc2Vec_example.png"
 	preview = {phd_thesis_title.png},
 }
 
-@inproceedings{schreieder2025attributioncitationquotationsurvey,
-      title={Attribution, Citation, and Quotation: A Survey of Evidence-based Text Generation with Large Language Models},
-      author={Tobias Schreieder and Tim Schopf and Michael Färber},
-      booktitle={arXiv},
-      month={Aug},
-      year={2025},
-      eprint={2508.15396},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2508.15396},
-      abstract={The increasing adoption of large language models (LLMs) has been accompanied by growing concerns regarding their reliability and trustworthiness. As a result, a growing body of research focuses on evidence-based text generation with LLMs, aiming to link model outputs to supporting evidence to ensure traceability and verifiability. However, the field is fragmented due to inconsistent terminology, isolated evaluation practices, and a lack of unified benchmarks. To bridge this gap, we systematically analyze 134 papers, introduce a unified taxonomy of evidence-based text generation with LLMs, and investigate 300 evaluation metrics across seven key dimensions. Thereby, we focus on approaches that use citations, attribution, or quotations for evidence-based text generation. Building on this, we examine the distinctive characteristics and representative methods in the field. Finally, we highlight open challenges and outline promising directions for future work.},
-      preview={evidence-based-text-generation.png}
-}
-
 @inproceedings{schopf-etal-2025-natural,
     title = "Natural Language Inference Fine-tuning for Scientific Hallucination Detection",
     author = {Schopf, Tim  and
@@ -375,6 +361,20 @@ preview="Doc2Vec_example.png"
     preview= "xllm_pipeline.png"
 }
 
+@inproceedings{kumar2026encodedroutedexplainingtablechart,
+      title={Encoded but Not Routed: Explaining the Table-Chart Gap in Scientific Claim Verification}, 
+      author={Sunisth Kumar and Xanh Ho and Tim Schopf and Andre Greiner-Petter and Florian Boudin and Akiko Aizawa},
+      booktitle={arXiv},
+      month={June},
+      year={2026},
+      eprint={2606.01679},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2606.01679}, 
+      abstract = {Multimodal LLMs are increasingly used to assist scientific peer review, where a core requirement is verifying whether claims in a paper are supported by its evidence. Prior work has shown that models perform substantially better at this task when the evidence is a table than when it is a chart of the same underlying data. This raises the question of whether models fail to extract information from charts, or do they extract it but fail to use it when forming their prediction? We study this question through layer-wise linear probing and attention analysis on three open-weight VLMs over table and chart evidence, representing the same underlying data. We find consistent evidence for the latter. Chart information is encoded in the models' intermediate representations but does not reach the prediction position, a gap that is absent for tables and holds across all conditions tested. Attention analysis further reveals that this disconnect takes two architecturally distinct forms across model families. These findings reframe the table-chart gap as a failure of how encoded visual information is routed at prediction time, rather than a failure of encoding itself.},      
+      preview={Overview_Encoded.png}
+}
+
 @inproceedings{schopf-etal-2026-is,
   title = {Is This Idea Novel? An Automated Benchmark for Judgment of Research Ideas},
   author = {Schopf, Tim and Färber, Michael},
@@ -390,4 +390,16 @@ preview="Doc2Vec_example.png"
   preview={example_novelty_judgment.png}
 }
 
-
+@inproceedings{schreieder2026attributioncitationquotationsurvey,
+      title={Attribution, Citation, and Quotation: A Survey of Evidence-based Text Generation with Large Language Models},
+      author={Tobias Schreieder and Tim Schopf and Michael Färber},
+      booktitle={arXiv},
+      month={April},
+      year={2026},
+      eprint={2508.15396},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2508.15396}, 
+      abstract={The increasing adoption of large language models (LLMs) has raised serious concerns about their reliability and trustworthiness. As a result, a growing body of research focuses on evidence-based text generation with LLMs, aiming to link model outputs to supporting evidence to ensure traceability and verifiability. However, the field is fragmented due to inconsistent terminology, isolated evaluation practices, and a lack of unified benchmarks. To bridge this gap, we systematically analyze 134 papers, introduce a unified taxonomy of evidence-based text generation with LLMs, and investigate 300 evaluation metrics across seven key dimensions. Thereby, we focus on approaches that use citations, attribution, or quotations for evidence-based text generation. Building on this, we examine the distinctive characteristics and representative methods in the field. Finally, we highlight open challenges and outline promising directions for future work.},
+      preview={evidence-based-text-generation.png}
+}
