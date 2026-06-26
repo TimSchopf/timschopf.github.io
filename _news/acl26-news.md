@@ -7,6 +7,6 @@ related_posts: false
 
 How can we trace LLM outputs back to reliable sources?
 
-In our paper, [Attribution, Citation, and Quotation: A Survey of Evidence-based Text Generation with Large Language Models](https://arxiv.org/abs/2508.15396), accepted to ACL 2026, we present a unified overview of this emerging research area.
+In our paper, [Attribution, Citation, and Quotation: A Survey of Evidence-based Text Generation with Large Language Models](https://aclanthology.org/2026.acl-long.1430), accepted to ACL 2026, we present a unified overview of this emerging research area.
 
 Looking forward to sharing our work in San Diego 🇺🇸!
