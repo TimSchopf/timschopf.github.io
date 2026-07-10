@@ -6,7 +6,7 @@ subtitle: AI Research Scientist @ <a href="https://www.nii.ac.jp/en">National In
 
 profile:
   align: right
-  image: Tim_ACL24.jpeg
+  image: Tim_Schopf_ACL2026.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p></p>
