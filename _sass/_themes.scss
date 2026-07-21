@@ -216,9 +216,10 @@ html[data-theme-setting="light"] {
 }
 
 // Site-specific: compact, centered contact icons on the about page.
-// The doubled class raises specificity so this wins over al_folio_core's
-// `.contact-icons { font-size: 4rem }` (loaded later in main.scss).
-.contact-icons.contact-icons {
+// al_folio_core's rule is `.social .contact-icons { font-size: 4rem }` (0,2,0)
+// and is compiled AFTER this file, so we need strictly higher specificity
+// (0,3,0) for the compact size to win.
+.social .contact-icons.contact-icons {
   display: flex;
   justify-content: center;
   gap: 15px;
@@ -231,4 +232,32 @@ html[data-theme-setting="light"] {
 // in-content headings inside article bodies are unaffected.
 .post > h2 {
   text-transform: capitalize;
+}
+
+// Fix (upstream al_folio_bootstrap_compat 1.0.0 bug): compat ships an
+// UNLAYERED `.collapse { display: none; visibility: hidden }`, while the
+// theme's `visibility: visible` lives in a cascade @layer — unlayered rules
+// beat layered ones, so every navbar item is laid out but invisible.
+// (0,3,0) unlayered wins regardless of file order. Mobile behavior is
+// unaffected: below the sm breakpoint the menu is hidden via display:none
+// until toggled, and `.collapse.show` still displays it.
+.navbar .navbar-collapse.collapse {
+  visibility: visible;
+}
+
+// Back-to-top button: al_folio_core forces the button to 40x40px, but the
+// vanilla-back-to-top plugin's injected svg margin assumes its default 56px
+// button, leaving the arrow bottom-flush. Center it with flex and restore
+// the pre-v1 resting position (the old site pinned it 50px from the bottom).
+// Doubled id out-specifies both the gem rule (`:root #back-to-top`) and the
+// plugin's injected styles.
+#back-to-top#back-to-top {
+  bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#back-to-top#back-to-top svg {
+  margin: 0;
 }
