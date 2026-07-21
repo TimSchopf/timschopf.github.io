@@ -12,7 +12,7 @@
             {% else %}
               <td class="list-group-category-icon"></td>
             {% endif %}
-            
+
             <!-- Calculate colspan for category title -->
             {% assign i = 1 %}
             {% for item in content.items %}
@@ -22,7 +22,7 @@
               <a href="{{ content.url | default: '#' }}">{{ content.name }}</a>
             </td>
           </tr>
-          
+
           <tr>
             <td></td>
             <td class="list-group-name">
