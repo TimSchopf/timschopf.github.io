@@ -261,3 +261,52 @@ html[data-theme-setting="light"] {
 #back-to-top#back-to-top svg {
   margin: 0;
 }
+
+// --- CV page fixes (v1 gem CSS regressions vs the old site) ---
+
+// al_folio_core styles bare tables (`table:not(.table) td { border-top: ... }`),
+// which draws stray divider lines above the date badges and locations in the
+// CV timeline (`table.table-cv` carries no `.table` class). The `.cv` prefix
+// gives (0,2,1) specificity, beating `table:not(.table) td` at (0,1,2).
+.cv .table-cv td,
+.cv .table-cv th {
+  border-top: none;
+}
+
+// al_folio_bootstrap_compat drops Bootstrap 4's `.font-weight-*` utilities
+// that the CV markup relies on (section titles, date badges, info labels);
+// restore the Bootstrap 4 definitions.
+.font-weight-light {
+  font-weight: 300 !important;
+}
+
+.font-weight-normal {
+  font-weight: 400 !important;
+}
+
+.font-weight-medium {
+  font-weight: 500 !important;
+}
+
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+
+// v1's `.card-text` forces 0.9rem/400 with a fixed light-gray color; restore
+// the old 1rem text that follows the theme text color (incl. dark mode).
+.cv .card-text {
+  color: var(--global-text-color);
+  font-size: 1rem;
+}
+
+// CV section titles rendered 32px in v1 vs 28px on the old site.
+.cv .card-title {
+  font-size: 1.75rem;
+}
+
+// Publications: the Abs/Bib toggles are `<a role="button">` without href.
+// Bootstrap 4 set the pointer cursor for role="button"; compat doesn't.
+.btn,
+[role="button"] {
+  cursor: pointer;
+}
