@@ -224,3 +224,11 @@ html[data-theme-setting="light"] {
   gap: 15px;
   font-size: 2rem;
 }
+
+// Site-specific: capitalize the about-page section headings ("News",
+// "Latest Posts", "Selected Publications") like the pre-v1 site did.
+// The headings are direct children of .post on the about layout, so
+// in-content headings inside article bodies are unaffected.
+.post > h2 {
+  text-transform: capitalize;
+}
