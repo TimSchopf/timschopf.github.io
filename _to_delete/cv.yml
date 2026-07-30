@@ -1,0 +1,55 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Tim Schopf
+    - name: Location
+      value: Dresden, Germany
+    - name: Research Interests
+      value: Large Language Models, AI Agents, Knowledge Graphs
+    - name: Languages
+      value: English, German
+
+- title: Professional Experience
+  type: time_table
+  contents:
+    - title: Postdoctoral Researcher
+      institution: ScaDS.AI & Dresden University of Technology (Chair of Scalable Software Architectures for Data Analytics), Germany
+      year: 01/2025–Present
+    - title: Research Associate
+      institution: Technical University of Munich (Chair of Software Engineering for Business Information Systems), Germany
+      year: 09/2020–08/2024
+    - title: Master’s Thesis Student
+      institution: MHP Management and IT Consulting, Germany
+      year: 11/2019–04/2020
+    - title: Data Science Intern
+      institution: Mercedes-Benz Group, Germany
+      year: 10/2018–03/2019
+    - title: Student Research Assistant
+      institution: Karlsruhe Institute of Technology, Germany
+      year: 02/2018–09/2018
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD (Dr. rer. nat.) in Computer Science
+      institution: Technical University of Munich, Germany
+      year: 01/2021–11/2025
+    - title: Master of Science (M.Sc.) in Information Engineering and Management
+      institution: Karlsruhe Institute of Technology, Germany
+      year: 10/2017–08/2020
+    - title: Bachelor of Science (B.Sc.) in Information Systems
+      institution: Universities of Stuttgart & Hohenheim, Germany
+      year: 10/2012–09/2017
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Topic 1.
+      items:
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
+      items:
+        - Description 1.
+        - Description 2.
