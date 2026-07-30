@@ -14,9 +14,8 @@ permissions:
   contents: write
 
 jobs:
-  # On pushes to main: format the code and push a fix-up commit instead of failing
-  format:
-    if: github.event_name == 'push'
+  prettier:
+    # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
@@ -25,9 +24,13 @@ jobs:
         uses: actions/setup-node@v4
       - name: Install Prettier 💾
         run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
+
+      # On pushes to main: format the code and push a fix-up commit instead of failing
       - name: Format code ✨
+        if: github.event_name == 'push'
         run: npx prettier . --write
       - name: Commit and push formatting fixes 🤖
+        if: github.event_name == 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -39,19 +42,10 @@ jobs:
             git push
           fi
 
-  # On pull requests: check only, upload a diff and notify the PR on failure
-  check:
-    if: github.event_name == 'pull_request'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v4
-      - name: Setup Node.js ⚙️
-        uses: actions/setup-node@v4
-      - name: Install Prettier 💾
-        run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
+      # On pull requests: check only, upload a diff and notify the PR on failure
       - name: Prettier Check 🔎
         id: prettier
+        if: github.event_name == 'pull_request'
         run: npx prettier . --check
       - name: Create diff 📝
         # https://docs.github.com/en/actions/learn-github-actions/expressions#failure
