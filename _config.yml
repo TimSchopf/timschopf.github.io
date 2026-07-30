@@ -162,6 +162,10 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts", "_pages/news.md"]
 exclude:
+  - bin/
+  - Dockerfile
+  - docker-compose.yml
+  - docker-compose-slim.yml
   - Gemfile
   - Gemfile.lock
   - LICENSE
