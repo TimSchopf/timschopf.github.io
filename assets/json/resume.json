@@ -55,23 +55,23 @@
       "startDate": "2021-01-04",
       "endDate": "2025-11-04"
     },
-   {
-    "institution": "Karlsruhe Institute of Technology",
-    "location": "Karlsruhe, Germany",
-    "studyType": "Master of Science (M.Sc.) in Information Engineering and Management",
-    "startDate": "2017-10-01",
-    "endDate": "2020-08-31"
-  },
-   {
-    "institution": "Universities of Stuttgart & Hohenheim",
-    "location": "Stuttgart, Germany",
-    "studyType": "Bachelor of Science (B.Sc.) in Information Systems",
-    "startDate": "2012-10-01",
-    "endDate": "2017-09-30"
-  }
+    {
+      "institution": "Karlsruhe Institute of Technology",
+      "location": "Karlsruhe, Germany",
+      "studyType": "Master of Science (M.Sc.) in Information Engineering and Management",
+      "startDate": "2017-10-01",
+      "endDate": "2020-08-31"
+    },
+    {
+      "institution": "Universities of Stuttgart & Hohenheim",
+      "location": "Stuttgart, Germany",
+      "studyType": "Bachelor of Science (B.Sc.) in Information Systems",
+      "startDate": "2012-10-01",
+      "endDate": "2017-09-30"
+    }
   ],
   "fellowships": [
-  {
+    {
       "name": "DAAD IFI Postdoc Fellowship",
       "date": "2026",
       "description": "International research fellowship funded by the German Academic Exchange Service (DAAD) for highly qualified early-career researchers in AI",
@@ -85,7 +85,7 @@
       "url": "https://ai-grid.org/en/",
       "icon": "fa-solid fa-award"
     }
- ],
+  ],
   "certificates": [
     {
       "name": "Professional Scrum Master™ (PSM I)",
@@ -111,20 +111,12 @@
     {
       "name": "AI Methods",
       "icon": "fa-solid fa-brain",
-      "keywords": [
-        "Large Language Models",
-        "AI Agents",
-        "Knowledge Graphs"
-      ]
+      "keywords": ["Large Language Models", "AI Agents", "Knowledge Graphs"]
     },
     {
       "name": "Application Domains",
       "icon": "fa-solid fa-brain",
-      "keywords": [
-        "Scholarly Document Processing",
-        "Scientific Discovery",
-        "Medicine/Health"
-      ]
+      "keywords": ["Scholarly Document Processing", "Scientific Discovery", "Medicine/Health"]
     }
   ]
 }

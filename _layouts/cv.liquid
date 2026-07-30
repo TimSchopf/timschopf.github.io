@@ -88,7 +88,8 @@ layout: default
           {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
           <a class="anchor" id="{{ data[0] }}"></a>
           <div class="card mt-3 p-3">
-            {% assign section_title = data[0] %}<h3 class="card-title font-weight-medium">{% include titlecase.liquid text=section_title %}</h3>
+            {% assign section_title = data[0] %}
+            <h3 class="card-title font-weight-medium">{% include titlecase.liquid text=section_title %}</h3>
             <div>
               {% case data[0] %}
                 {% when 'general information' %}

@@ -15,7 +15,7 @@
             {% else %}
               {% assign endDate = 'Present' %}
             {% endif %}
-              {% assign date = startDate | append: ' - ' %}
+            {% assign date = startDate | append: ' - ' %}
             {% assign date = date | append: endDate %}
           {% else %}
             {% assign date = '' %}

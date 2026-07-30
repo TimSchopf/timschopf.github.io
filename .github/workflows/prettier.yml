@@ -10,9 +10,38 @@ on:
       - master
       - main
 
+permissions:
+  contents: write
+
 jobs:
+  # On pushes to main: format the code and push a fix-up commit instead of failing
+  format:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+      - name: Setup Node.js ⚙️
+        uses: actions/setup-node@v4
+      - name: Install Prettier 💾
+        run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
+      - name: Format code ✨
+        run: npx prettier . --write
+      - name: Commit and push formatting fixes 🤖
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- . ':(exclude)package.json' ':(exclude)package-lock.json'
+          if git diff --cached --quiet; then
+            echo "Already formatted - nothing to commit."
+          else
+            git commit -m "chore: prettier auto-format"
+            git push
+          fi
+
+  # On pull requests: check only, upload a diff and notify the PR on failure
   check:
-    # available images: https://github.com/actions/runner-images#available-images
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
@@ -41,7 +70,7 @@ jobs:
           path: diff.html
           retention-days: 7
       - name: Dispatch information to repository 🗣️
-        if: ${{ failure() && steps.prettier.conclusion == 'failure' && github.event_name == 'pull_request' }}
+        if: ${{ failure() && steps.prettier.conclusion == 'failure' }}
         uses: peter-evans/repository-dispatch@v2
         with:
           event-type: prettier-failed-on-pr
