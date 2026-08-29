@@ -47,6 +47,9 @@ ninja.data = [{
           section: "News",},{id: "news-multimodal-llms-are-much-better-at-verifying-claims-from-scientific-tables-than-equivalent-charts-our-new-preprint-investigates-why-️-️-do-models-fail-to-extract-chart-information-or-fail-to-use-it-effectively-once-extracted-check-it-out",
           title: 'Multimodal LLMs are much better at verifying claims from scientific tables than equivalent...',
           description: "",
+          section: "News",},{id: "news-how-can-we-use-automated-novelty-judgment-of-research-ideas-to-accelerate-scientific-discovery-in-our-emnlp-2026-paper-think-probe-respond-improving-large-language-models-as-judges-of-research-idea-novelty-we-introduce-a-lightweight-approach-that-probes-llms-latent-novelty-judgments-and-outperforms-strong-baselines-looking-forward-to-sharing-our-work-in-budapest",
+          title: 'How can we use automated novelty judgment of research ideas to accelerate scientific...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
