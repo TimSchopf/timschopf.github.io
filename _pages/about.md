@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: AI Research Scientist @ <a href="https://www.nii.ac.jp/en">National Institute of Informatics (NII)</a>
+subtitle: AI Specialist @ <a href="https://www.rolandberger.com">Roland Berger</a>
 
 profile:
   align: right
@@ -29,17 +29,17 @@ latest_posts:
 
 Hi, I’m Tim! 👋
 
-I’m a researcher working at the intersection of **natural language processing (NLP)** and **knowledge engineering**, with a focus on making AI systems more reliable, transparent, and useful for science.
+I work at the intersection of **AI and business transformation**, with a focus on building practical, scalable solutions around generative AI and intelligent analytics.
 
-Since March 2026, I have been an AI Research Scientist working with [Prof. Akiko Aizawa](http://www.nii.ac.jp/en/faculty/digital_content/aizawa_akiko/) at the [National Institute of Informatics (NII)](https://www.nii.ac.jp/en). My current work centers on **faithful natural language explanations for multimodal claim verification** and the development of **AI agents for scientific discovery**.
+Since September 2026, I have been an **AI Specialist** at the [Roland Berger](https://www.rolandberger.com/en/) AI Lab in Stuttgart. In this role, I help design and implement advanced AI solutions for clients and internal teams, combining technical solutions with strategic consulting to turn emerging AI capabilities into tangible business impact.
 
-Previously, as a postdoctoral researcher at [ScaDS.AI](https://scads.ai/), I worked on **evidence-based text generation**, exploring how LLMs can ground their outputs in traceable evidence. I completed my PhD at the [Technical University of Munich](https://www.cs.cit.tum.de/sebis/team/alumni/tim-schopf), where I investigated NLP and knowledge graph approaches to enhance exploratory searches for scholarly literature.
+Before joining Roland Berger, I was an AI Research Scientist at the [National Institute of Informatics (NII)](https://www.nii.ac.jp/en), where I worked with [Prof. Akiko Aizawa](http://www.nii.ac.jp/en/faculty/digital_content/aizawa_akiko/) on **faithful natural language explanations for multimodal claim verification** and **AI agents for scientific discovery**. Earlier, as a postdoctoral researcher at [ScaDS.AI](https://scads.ai/), I focused on **evidence-based text generation**. I completed my PhD at the [Technical University of Munich](https://www.cs.cit.tum.de/sebis/team/alumni/tim-schopf), where I researched NLP and knowledge graph approaches for exploratory search in scholarly literature.
 
-My current research interests include:
+My core interests include:
 
-- Understanding, detecting, and mitigating **LLM hallucinations** (e.g., through faithful explanation generation, automatic claim verification, or grounding outputs in external knowledge)
-- **Evidence-based text generation** (e.g., by attributing, citing, or quoting verifiable sources)
-- **LLMs for scientific reasoning**
-- **AI agents for scientific discovery**
+- **Generative AI and LLM applications** in real business contexts
+- **AI strategy, prototyping, and deployment** for scalable solutions
+- **Reliable and explainable AI** for decision support and knowledge work
+- **Evidence-based, transparent AI systems**
 
-Broadly, I aim to build AI systems that don’t just generate fluent text, but produce **reliable, transparent, and scientifically grounded knowledge**.
+Broadly, I aim to build AI systems that are not only powerful, but also **useful, trustworthy, and grounded in real-world needs**.

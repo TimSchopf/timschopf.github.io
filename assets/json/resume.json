@@ -1,15 +1,22 @@
 {
   "general information": {
     "name": "Tim Schopf",
-    "location": "Tokyo, Japan",
+    "location": "Stuttgart, Germany",
     "email": "tim.schopf@t-online.de"
   },
   "professional experience": [
     {
+      "name": "Roland Berger (AI Lab)",
+      "location": "Stuttgart, Germany",
+      "position": "AI Specialist",
+      "startDate": "2026-09-15"
+    },
+    {
       "name": "National Institute of Informatics (Aizawa Lab)",
       "location": "Tokyo, Japan",
       "position": "AI Research Scientist",
-      "startDate": "2026-03-01"
+      "startDate": "2026-03-01",
+      "endDate": "2026-08-31"
     },
     {
       "name": "ScaDS.AI & Dresden University of Technology (Chair of Scalable Software Architectures for Data Analytics)",
