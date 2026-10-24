@@ -169,7 +169,7 @@ preview="Doc2Vec_example.png"
     url = "https://aclanthology.org/2023.ranlp-1.112/",
     pages = "1046--1053",
     abstract = "Sentence embeddings enable us to capture the semantic similarity of short texts. Most sentence embedding models are trained for general semantic textual similarity tasks. Therefore, to use sentence embeddings in a particular domain, the model must be adapted to it in order to achieve good results. Usually, this is done by fine-tuning the entire sentence embedding model for the domain of interest. While this approach yields state-of-the-art results, all of the model`s weights are updated during fine-tuning, making this method resource-intensive. Therefore, instead of fine-tuning entire sentence embedding models for each target domain individually, we propose to train lightweight adapters. These domain-specific adapters do not require fine-tuning all underlying sentence embedding model parameters. Instead, we only train a small number of additional parameters while keeping the weights of the underlying sentence embedding model fixed. Training domain-specific adapters allows always using the same base model and only exchanging the domain-specific adapters to adapt sentence embeddings to a specific domain. We show that using adapters for parameter-efficient domain adaptation of sentence embeddings yields competitive performance within 1% of a domain-adapted, entirely fine-tuned sentence embedding model while only training approximately 3.6% of the parameters.",
-    preview = {Adapter-based_Sentence_Embedding.png}
+    preview = "Adapter-based_Sentence_Embedding.png"
 }
 
 @inproceedings{schopf-etal-2023-aspectcse,
@@ -379,7 +379,7 @@ preview="Doc2Vec_example.png"
     pages = "12119--12132",
     ISBN = "979-8-89176-462-0",
     abstract = "Automated novelty judgment can accelerate scientific discovery by enabling efficient evaluation, refinement, and comparison of research ideas. While large language models are increasingly adopted for this task, we investigate a previously overlooked limitation in their judgment capabilities: despite generating reasoning rationales that closely mirror those of human experts, their final novelty judgments often diverge substantially. We demonstrate that this miscalibration stems from a systematic bias towards judging ideas as ``medium novel''. To mitigate this, we propose Think-Probe-Respond (TPR), a lightweight approach that probes latent novelty judgments from hidden states during the reasoning phase and uses the probed judgments to condition the final response. Across strong baselines, TPR improves novelty judgment performance by 22.30{\%} and successfully mitigates the prevalent ``medium novelty'' bias.",
-    preview=TPR.png
+    preview="TPR.png"
 }
 
 @inproceedings{schreieder-etal-2026-attribution,
@@ -438,5 +438,5 @@ preview="Doc2Vec_example.png"
     pages = "4716--4727",
     abstract = "Judging the novelty of research ideas is crucial for advancing science, enabling the identification of unexplored directions, and ensuring contributions meaningfully extend existing knowledge rather than reiterate minor variations. However, given the exponential growth of scientific literature, manually judging the novelty of research ideas through literature reviews is labor-intensive, subjective, and infeasible at scale. Therefore, recent efforts have proposed automated approaches for research idea novelty judgment. Yet, evaluation of these approaches remains largely inconsistent and is typically based on non-standardized human evaluations, hindering large-scale, comparable evaluations. To address this, we introduce RINoBench, the first comprehensive benchmark for large-scale evaluation of research idea novelty judgments. It comprises 1,381 research ideas derived from and judged by human experts as well as nine automated evaluation metrics designed to assess both rubric-based novelty scores and textual justifications of novelty judgments. Using this benchmark, we evaluate several state-of-the-art large language models (LLMs) on their ability to judge the novelty of research ideas. Our findings reveal that while LLM-generated reasoning closely mirrors human rationales, this alignment does not reliably translate into accurate novelty judgments, which diverge significantly from human gold standard judgments{---}even among leading reasoning-capable models.",
     github = "https://github.com/TimSchopf/RINoBench",
-    preview=example_novelty_judgment.png
+    preview="example_novelty_judgment.png"
 }
