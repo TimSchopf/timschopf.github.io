@@ -47,7 +47,7 @@ ninja.data = [{
           section: "News",},{id: "news-how-can-we-use-automated-novelty-judgment-of-research-ideas-to-accelerate-scientific-discovery-in-our-emnlp-2026-paper-think-probe-respond-improving-large-language-models-as-judges-of-research-idea-novelty-we-introduce-a-lightweight-approach-that-probes-llms-latent-novelty-judgments-and-outperforms-strong-baselines-looking-forward-to-sharing-our-work-in-budapest",
           title: 'How can we use automated novelty judgment of research ideas to accelerate scientific...',
           description: "",
-          section: "News",},{id: "news-multimodal-llms-are-much-better-at-verifying-claims-from-scientific-tables-than-equivalent-charts-our-paper-accepted-to-aacl-ijcnlp-2026-investigates-why-️-️-do-models-fail-to-extract-chart-information-or-fail-to-use-it-effectively-once-extracted-looking-forward-to-sharing-our-work-in-hengqin",
+          section: "News",},{id: "news-multimodal-llms-are-much-better-at-verifying-claims-from-scientific-tables-than-equivalent-charts-our-paper-accepted-to-ijcnlp-aacl-2026-investigates-why-️-️-do-models-fail-to-extract-chart-information-or-fail-to-use-it-effectively-once-extracted-looking-forward-to-sharing-our-work-in-hengqin",
           title: 'Multimodal LLMs are much better at verifying claims from scientific tables than equivalent...',
           description: "",
           section: "News",},{id: "news-i-am-excited-to-share-that-i-have-joined-the-roland-berger-ai-lab-as-an-ai-specialist-in-stuttgart-in-this-new-role-i-am-working-at-the-intersection-of-ai-and-business-transformation-helping-clients-and-teams-turn-emerging-technologies-into-scalable-business-ready-solutions",
